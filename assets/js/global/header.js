@@ -30,13 +30,13 @@ window.addEventListener('load', () => fetchJSON('meta.json').then(async metadata
             a.className = item.logo;
             a.style.color = item.color;
         } else if (item.logo.includes('http')) a.innerHTML = `<img src="${item.logo}" height="30">`;
-        else a.innerHTML = `<img src="${location.pathname.includes("music") ? ".." : "."}/assets/images/${item.logo}" height="30">`;
+        else a.innerHTML = `<img src="${location.pathname.includes("music/") ? ".." : "."}/assets/images/${item.logo}" height="30">`;
 
         if (animations_disable) music_platforms_nav.insertBefore(a, animations_disable);
         else music_platforms_nav.appendChild(a);
     });
 
-    if (!location.pathname.includes("music")) {
+    if (!location.pathname.includes("music/")) {
         const platformLinks = document.querySelector('#platform-links');
         platformLinks.innerHTML = music_platforms_nav.innerHTML;
         platformLinks.removeChild(platformLinks.querySelector('.color-theme-toggle'));
