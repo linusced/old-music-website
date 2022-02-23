@@ -4,5 +4,5 @@
 /assets/audio/film-fx/**/*.wav
 /assets/audio/serum-presets/**/*.mp3
 /assets/audio/wav/*.wav
-/serum-presets/**/*.fxp
+/assets/serum-presets/**/*.fxp
 /presets/index.html
