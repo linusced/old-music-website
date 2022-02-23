@@ -1,0 +1,26 @@
+{
+    "audio-fx": [
+        "dr - kick",
+        "dr",
+        "impacts",
+        "percussion",
+        "risers",
+        "sweeps",
+        "misc"
+    ],
+    "serum-presets": [
+        "bass",
+        "bass - sequencers",
+        "pads",
+        "pads - ambiences",
+        "plucked",
+        "plucked - arpeggiators",
+        "plucked - sequencers",
+        "leads",
+        "leads - arpeggiators",
+        "miscellaneous"
+    ],
+    "film-fx": [
+        "impacts"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "lists": [
+        "tracks-exclusive",
+        "tracks-2021"
+    ],
+    "platforms": [
+        {
+            "title": "SoundCloud",
+            "url": "#",
+            "logo": "fab fa-soundcloud",
+            "color": "#f70"
+        },
+        {
+            "title": "YouTube",
+            "url": "#",
+            "logo": "fab fa-youtube",
+            "color": "#f00"
+        },
+        {
+            "title": "Instagram",
+            "url": "#",
+            "logo": "instagram-logo.png"
+        },
+        {
+            "title": "Twitter",
+            "url": "#",
+            "logo": "fab fa-twitter",
+            "color": "#08a0e9"
+        }
+    ],
+    "info": {
+        "about": [
+            ""
+        ],
+        "contact": ""
+    }
+}

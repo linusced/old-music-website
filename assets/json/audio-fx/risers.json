@@ -1,0 +1,59 @@
+[
+    {
+        "title": "FX Short Riser",
+        "tags": [
+            "fx",
+            "riser",
+            "2020",
+            "starlight",
+            "orbit",
+            "lunar",
+            "interplanetary"
+        ],
+        "file": "risers/FX Short Riser - 2020"
+    },
+    {
+        "title": "FX Medium Riser",
+        "tags": [
+            "fx",
+            "riser",
+            "2020",
+            "starlight",
+            "lunar",
+            "interplanetary",
+            "hope"
+        ],
+        "file": "risers/FX Medium Riser - 2020"
+    },
+    {
+        "title": "FX Noise & Saw Riser",
+        "tags": [
+            "fx",
+            "riser",
+            "2021",
+            "lunar",
+            "reentry"
+        ],
+        "file": "risers/FX Noise & Saw Riser - 2021"
+    },
+    {
+        "title": "FX Noise & Saw Riser [Delay + Reverb]",
+        "tags": [
+            "fx",
+            "riser",
+            "2021",
+            "lunar"
+        ],
+        "file": "risers/FX Noise & Saw Riser [Delay + Reverb] - 2021"
+    },
+    {
+        "title": "FX Long Riser",
+        "tags": [
+            "fx",
+            "riser",
+            "2021",
+            "hope"
+        ],
+        "file": "risers/FX Long Riser 2 - 2021"
+    }
+]

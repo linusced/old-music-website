@@ -1,0 +1,37 @@
+[
+    {
+        "title": "FX Noise Sweep",
+        "tags": [
+            "fx",
+            "sweep",
+            "2020",
+            "starlight",
+            "orbit",
+            "lunar",
+            "reentry",
+            "interplanetary",
+            "hope"
+        ],
+        "file": "sweeps/FX Noise Sweep - 2020"
+    },
+    {
+        "title": "FX Noise & Saw Sweep [Long]",
+        "tags": [
+            "fx",
+            "sweep",
+            "2021",
+            "lunar"
+        ],
+        "file": "sweeps/FX Noise & Saw Sweep [Long] - 2021"
+    },
+    {
+        "title": "FX Noise & Saw Sweep [Short]",
+        "tags": [
+            "fx",
+            "sweep",
+            "2021",
+            "lunar"
+        ],
+        "file": "sweeps/FX Noise & Saw Sweep [Short] - 2021"
+    }
+]

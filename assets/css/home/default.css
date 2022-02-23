@@ -1,0 +1,117 @@
+#homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-grow: 1
+}
+#homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    flex-grow: 1
+}
+
+#top-container {
+    flex-grow: .4;
+    background: linear-gradient(to bottom, transparent 50%, var(--black-color));
+}
+#waveform-animation-container {
+    width: 100%;
+    height: 340px;
+    position: relative;
+    background: var(--black-color)
+}
+#waveform-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-family: 'textFont';
+    font-size: 70px;
+    min-width: 100%;
+    overflow: visible;
+    color: var(--blue-color);
+    text-shadow: 2px 2px 4px var(--black-color), -2px -2px 4px var(--black-color);
+    background: linear-gradient(to bottom, var(--black-color), transparent 23%, transparent 78%, var(--black-color))
+}
+#homepage.no-animation #waveform-animation-container, #homepage.no-animation #top-container {
+    display: none
+}
+#homepage.no-animation #logo {
+    background: linear-gradient(to bottom, transparent 78%, var(--black-color))
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+#links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px
+}
+.video-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%
+}
+.video-img .fa-youtube {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #f00;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 40px;
+    padding: 2px 7px;
+    margin: 6px 2px
+}
+#animations a {
+    max-width: 100%
+}
+
+@media (max-width: 700px), (max-height: 750px) {
+    #waveform-animation-container, #top-container {
+        display: none
+    }
+    #logo {
+        background: linear-gradient(to bottom, transparent 78%, var(--black-color))
+    }
+    #select-main-content {
+        flex-direction: column
+    }
+    #select-main-content > * {
+        margin-top: 25px
+    }
+    #select-main-content label:not(:nth-child(2)) {
+        margin-top: 30px
+    }
+}
+
+@media (max-width: 500px) {
+    #logo {
+        font-size: 60px
+    }
+}
+@media (max-width: 350px) {
+    #logo {
+        font-size: 40px
+    }
+}

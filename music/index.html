@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        if (!window.AudioContext || screen.width < 1000) location.href = location.href.split('?')[1] ? `./alternate.html?${location.href.split('?')[1]}` : './alternate.html'
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/brands.min.css">
+
+    <link rel="stylesheet" href="../assets/css/global/default.css">
+    <link rel="stylesheet" href="../assets/css/global/header.css">
+    <link rel="stylesheet" href="../assets/css/global/nav.css">
+    <link rel="stylesheet" href="../assets/css/global/main.css">
+    <link rel="stylesheet" href="../assets/css/global/slider.css">
+
+    <link rel="stylesheet" href="../assets/css/music/tracklist.css">
+    <link rel="stylesheet" href="../assets/css/music/controls.css">
+    <link rel="stylesheet" href="../assets/css/music/default.css">
+
+    <script src="../assets/js/classes/slider.js"></script>
+    <script src="../assets/js/classes/audio_player.js"></script>
+    <script src="../assets/js/classes/audio_bg.js"></script>
+    <script src="../assets/js/classes/audio_events.js"></script>
+
+    <script src="../assets/js/global/default.js"></script>
+    <script src="../assets/js/global/color_theme.js"></script>
+    <script src="../assets/js/global/header.js"></script>
+
+    <script src="../assets/js/music/default.js"></script>
+
+    <title>Music</title>
+</head>
+
+<body class="animations">
+    <canvas id="audio-bg"></canvas>
+    <canvas id="audio-events"></canvas>
+    <header class="animation-btn">
+        <a href="../index.html" class="h1" title="Homepage">Evolvetrack</a>
+        <nav class="primary-nav">
+            <a href=" ../index.html" title="Homepage">Home</a>
+            <div id="nav-music-container">
+                <button id="nav-music-btn" title="Show music dropdown menu"><span>Music</span><i
+                        class="fas fa-arrow-down"></i></button>
+                <div id="nav-music"></div>
+            </div>
+            <!-- <a href="../presets/index.html" title="FX & Presets">FX & Presets</a> -->
+        </nav>
+        <nav id="music-platforms" class="platforms">
+            <button class="color-theme-toggle fas fa-moon" title="Toggle dark / light mode"></button>
+            <button id="animation-disable" title="Disable canvas animations"><span
+                    style="width:5px"></span>Animations</button>
+        </nav>
+        <div id="header-borders">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <button class="color-theme-toggle fixed fas fa-moon" title="Toggle dark / light mode"></button>
+    <button id="header-toggle" class="fas fa-bars"></button>
+    <main id="audio-player">
+        <h4 id="audio-header"></h4>
+        <div id="audio-tracklist"></div>
+        <div id="audio-controls">
+            <button id="audio-prev" title="Previous track" class="fas fa-step-backward"></button>
+            <button id="audio-togglePLayback" title="Play" class="fas fa-play"></button>
+            <button id="audio-next" title="Next track" class="fas fa-step-forward"></button>
+            <h3><span id="audio-currentTime" title="Track Current Time">00:00</span><span
+                    style="padding:0 2px">/</span><span id="audio-duration" title="Track Duration">00:00</span></h3>
+            <div id="audio-timeChange-container">
+                <div title="Track Timeline / Playhead" id="audio-timeChange"></div>
+                <form id="audio-timeChange-form" class="info-box">
+                    <span>Set the current playback time in the input field below</span>
+                    <div>
+                        <input type="text" name="timeChange" value="00:00" maxlength="5" required
+                            title="Set the current playback time">
+                        <input type="submit" value="Set time" title="Set time">
+                    </div>
+                </form>
+            </div>
+            <div id="audio-volume-controls">
+                <button id="audio-mute" title="Mute (change the volume using arrow-up and arrow-down keys)"
+                    class="fas fa-volume-up"></button>
+                <div id="audio-volume-container">
+                    <div title="Volume" id="audio-volume"></div>
+                </div>
+                <div id="audio-volume-text" class="info-box">Change the volume using arrow-up and arrow-down keys</div>
+            </div>
+            <div id="audio-controls-shortcuts" class="info-box">
+                <span>Keyboard Shortcuts</span>
+                <ul>
+                    <li><span>Space</span><span>Play / Pause</span></li>
+                    <li><span>K</span><span>Play / Pause</span></li>
+                    <li><span>J</span><span>Previous Track</span></li>
+                    <li><span>L</span><span>Next Track</span></li>
+                    <li><span>M</span><span>Mute / Unmute</span></li>
+                    <li><span>Arrow-up</span><span>Increase Volume</span></li>
+                    <li><span>Arrow-down</span><span>Decrease Volume</span></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

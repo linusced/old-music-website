@@ -1,0 +1,40 @@
+#audio-tracklist {
+    width: 100%;
+    max-width: 100vw;
+    height: 0;
+    flex-grow: 1;
+    overflow-y: auto
+}
+.audio-track {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px 10px 0;
+    border: 1px solid transparent;
+    border-bottom-color: var(--border-color)
+}
+.audio-track:focus {
+    outline: none;
+    border-color: var(--blue-color)
+}
+.audio-track i {
+    visibility: hidden;
+    color: var(--text-color)
+}
+#audio-player:not(.audio-mobile) .audio-track:hover i, #audio-player:not(.audio-mobile) .audio-track:focus i, .audio-track i.fa-pause-circle, #audio-player.audio-mobile .audio-track.active i {
+    visibility: visible
+}
+.audio-track-title {
+    padding-top: 5px
+}
+.audio-track-duration {
+    font-family: 'digitFont';
+    margin-left: auto;
+    padding-bottom: 2px;
+    color: var(--text-color-2)
+}
+.audio-track.active .audio-track-title {
+    color: var(--blue-color)
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "title": "LD 01",
+        "tags": [
+            "lead",
+            "2020",
+            "starlight",
+            "orbit",
+            "reentry",
+            "interplanetary"
+        ],
+        "file": "leads/LD 01",
+        "special_type": "mono"
+    },
+    {
+        "title": "LD 02",
+        "tags": [
+            "lead",
+            "2020"
+        ],
+        "file": "leads/LD 02"
+    },
+    {
+        "title": "LD 03",
+        "tags": [
+            "lead",
+            "2020",
+            "starlight",
+            "reentry",
+            "interplanetary",
+            "hope"
+        ],
+        "file": "leads/LD 03"
+    },
+    {
+        "title": "LD 04",
+        "tags": [
+            "lead",
+            "2021",
+            "interplanetary"
+        ],
+        "file": "leads/LD 04",
+        "special_type": "mono"
+    },
+    {
+        "title": "LD 05",
+        "tags": [
+            "lead",
+            "2021",
+            "hope"
+        ],
+        "file": "leads/LD 05",
+        "special_type": "mono"
+    },
+    {
+        "title": "LD 06",
+        "tags": [
+            "lead",
+            "2021",
+            "hope"
+        ],
+        "file": "leads/LD 06",
+        "special_type": "mono"
+    }
+]

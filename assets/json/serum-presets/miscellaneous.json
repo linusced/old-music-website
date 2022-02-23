@@ -1,0 +1,71 @@
+[
+    {
+        "title": "MISC 01",
+        "tags": [
+            "miscellaneous",
+            "2020",
+            "starlight",
+            "reentry"
+        ],
+        "file": "miscellaneous/MISC 01",
+        "special_type": "mono"
+    },
+    {
+        "title": "MISC 02",
+        "tags": [
+            "miscellaneous",
+            "2020",
+            "starlight",
+            "lunar",
+            "reentry"
+        ],
+        "file": "miscellaneous/MISC 02"
+    },
+    {
+        "title": "MISC 03",
+        "tags": [
+            "miscellaneous",
+            "2021",
+            "lunar"
+        ],
+        "file": "miscellaneous/MISC 03",
+        "special_type": "one-note-only"
+    },
+    {
+        "title": "MISC SQ 01",
+        "tags": [
+            "miscellaneous",
+            "sequencer",
+            "2020",
+            "starlight",
+            "reentry",
+            "interplanetary"
+        ],
+        "file": "miscellaneous/MISC SQ 01"
+    },
+    {
+        "title": "MISC SQ 02",
+        "tags": [
+            "miscellaneous",
+            "sequencer",
+            "2020",
+            "starlight",
+            "lunar",
+            "reentry"
+        ],
+        "file": "miscellaneous/MISC SQ 02",
+        "special_type": "mono"
+    },
+    {
+        "title": "MISC ARP 01",
+        "tags": [
+            "miscellaneous",
+            "arpeggiator",
+            "2021",
+            "lunar",
+            "interplanetary"
+        ],
+        "file": "miscellaneous/MISC ARP 01",
+        "special_type": "arp"
+    }
+]

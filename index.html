@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/brands.min.css">
+
+    <link rel="stylesheet" href="./assets/css/global/default.css">
+    <link rel="stylesheet" href="./assets/css/global/header.css">
+    <link rel="stylesheet" href="./assets/css/global/nav.css">
+    <link rel="stylesheet" href="./assets/css/global/main.css">
+
+    <link rel="stylesheet" href="./assets/css/home/default.css">
+
+    <script src="./assets/js/classes/waveform_animation.js"></script>
+
+    <script src="./assets/js/global/default.js"></script>
+    <script src="./assets/js/global/color_theme.js"></script>
+    <script src="./assets/js/global/header.js"></script>
+
+    <script src="./assets/js/home/default.js"></script>
+
+    <title>Evolvetrack Audio</title>
+</head>
+
+<body>
+    <div class="fullscreen-bg-image"></div>
+    <div class="fullscreen-container">
+        <header>
+            <a href="./index.html" class="h1" title="Homepage">Evolvetrack</a>
+            <nav class="primary-nav">
+                <a href="./index.html" class="active" title="Homepage">Home</a>
+                <div id="nav-music-container">
+                    <button id="nav-music-btn" title="Show music dropdown menu"><span>Music</span><i
+                            class="fas fa-arrow-down"></i></button>
+                    <div id="nav-music"></div>
+                </div>
+                <!-- <a href="./presets/index.html" title="FX & Presets">FX & Presets</a> -->
+            </nav>
+            <nav id="music-platforms" class="platforms">
+                <button class="color-theme-toggle fas fa-moon" title="Toggle dark / light mode"></button>
+            </nav>
+        </header>
+        <button class="color-theme-toggle fixed fas fa-moon" title="Toggle dark / light mode"></button>
+        <button id="header-toggle" class="fas fa-bars dark"></button>
+        <div id="homepage-container">
+            <div id="homepage">
+                <div id="top-container"></div>
+                <div id="waveform-animation-container">
+                    <canvas id="waveform-animation"></canvas>
+                </div>
+                <div id="logo">Evolvetrack Audio</div>
+            </div>
+            <div id="select-main-content">
+                <button class="radio-btn" data-value="music" data-checked="false"
+                    title="Show music tracks">Music</button>
+                <button class="radio-btn" data-value="info" data-checked="false"
+                    title="Show information about Evolvetrack Audio">About Me</button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div id="music" class="main-content">
+            <div class="filter-container">
+                <div id="music-filter" class="filter">
+                    <button class="radio-btn" data-value="all" data-checked="true"
+                        title="Show all music tracks">All</button>
+                </div>
+            </div>
+            <div id="music-content" class="list-content margin-bottom"></div>
+        </div>
+        <div id="animations" class="main-content hidden list-content margin-bottom"></div>
+        <div id="info" class="main-content hidden">
+            <h4>About:</h4>
+            <div id="about" class="margin-bottom"></div>
+            <h4>Links:</h4>
+            <div id="links" class="margin-bottom">
+                <nav id="platform-links" class="platforms"></nav>
+                <a href="#" class="text-link" id="contact" title="Email contact"></a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

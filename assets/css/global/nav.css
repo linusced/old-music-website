@@ -1,0 +1,159 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: visible;
+    font-size: 30px
+}
+nav.primary-nav button, nav a {
+    font-family: 'textFont';
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 10px 3px;
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
+    margin: 0 5px;
+    border-radius: 5px;
+    outline: none;
+    text-transform: capitalize
+}
+
+a:focus, nav.primary-nav button:focus {
+    border-color: var(--blue-color) !important
+}
+body:not(.animations) nav.primary-nav button, body:not(.animations) nav.primary-nav a {
+    background: var(--bg-color)
+}
+nav.primary-nav > a:first-child {
+    margin-right: 10px
+}
+
+a:hover, nav.primary-nav button:hover, nav.primary-nav button:hover i,
+a:focus, nav.primary-nav button:focus, nav.primary-nav button:focus i {
+    color: var(--text-color-2)
+}
+
+nav.platforms a {
+    border-color: transparent;
+    padding: 2px 7px;
+    margin: 0
+}
+nav.platforms a:hover, nav.platforms a:focus {
+    background: var(--text-color)
+}
+a.active {
+    color: var(--blue-color)
+}
+
+#nav-music-container {
+    position: relative;
+    overflow: visible
+}
+#nav-music-btn {
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 3px
+}
+#nav-music-btn span {
+    padding-top: 4px
+}
+#nav-music-btn i {
+    font-size: 20px;
+    padding: 0;
+    margin-left: 7px;
+    transform: rotate(0deg);
+    width: auto;
+    overflow: hidden
+}
+#nav-music-container.active #nav-music-btn i {
+    transform: rotate(-180deg)
+}
+#nav-music {
+    position: absolute;
+    min-width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 4;
+    background: var(--bg-color)
+}
+#nav-music a {
+    border-radius: 0;
+    white-space: nowrap;
+    min-width: 100%;
+    margin: 0
+}
+#nav-music a:not(:first-child) {
+    border-top: none
+}
+#nav-music-container.active #nav-music {
+    display: flex
+}
+#nav-music a:last-child:focus {
+    outline: 2px solid var(--blue-color);
+    outline-offset: -1px
+}
+
+@media (min-width: 701px) {
+    #nav-music {
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+    #nav-music-container.active #nav-music-btn {
+        border-bottom-color: var(--bg-color);
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0
+    }
+}
+@media (max-width: 700px) {
+    nav {
+        width: 100%;
+        flex-direction: column
+    }
+    nav.primary-nav button, nav a {
+        font-size: 40px;
+        width: 100%;
+        margin: 0 !important;
+        border: none;
+        border-radius: 0
+    }
+    nav.primary-nav > a, nav.primary-nav button {
+        border-bottom: 1px solid var(--border-color)
+    }
+    nav.primary-nav button, nav.primary-nav a {
+        display: flex;
+        justify-content: space-between
+    }
+    #nav-music-container {
+        width: 100%
+    }
+    #nav-music-container.active #nav-music-btn, #nav-music-container.active #nav-music {
+        border-bottom-color: var(--blue-color)
+    }
+    #nav-music-btn i {
+        font-size: 20px
+    }
+    #nav-music {
+        position: static;
+        border-bottom: 1px solid var(--border-color)
+    }
+    #nav-music a {
+        font-size: 35px;
+        background: var(--bg-color-2)
+    }
+    #nav-music a:not(:first-child) {
+        border-top: 1px solid var(--border-color)
+    }
+    nav.platforms {
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin: auto 0 10px
+    }
+    nav.platforms a {
+        width: auto;
+        font-size: 40px
+    }
+}

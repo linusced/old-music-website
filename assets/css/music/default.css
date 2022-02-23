@@ -1,0 +1,104 @@
+#audio-player {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    border-left: 3px solid var(--border-color);
+    border-right: 3px solid var(--border-color);
+    flex-grow: 1;
+    overflow: visible
+}
+#audio-player.audio-mobile .fas:hover {
+    transform: scale(1) !important
+}
+
+#animation-disable {
+    display: none;
+    visibility: hidden;
+    justify-content: center;
+    background: var(--text-color);
+    color: var(--bg-color);
+    padding: 5px 0;
+    margin-left: 10px;
+    width: 145px;
+    font-size: 15px
+}
+#animation-disable:focus {
+    outline: 2px solid var(--blue-color)
+}
+#animation-disable:hover, #animation-disable:focus {
+    color: var(--blue-color)
+}
+#animation-disable::before {
+    content: 'Disable'
+}
+#animation-disable.enable::before {
+    content: 'Enable'
+}
+
+body.animations #audio-bg {
+    display: block;
+    position:
+    fixed;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+body.animations #audio-events {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+body.animations #audio-player:not(.audio-mobile) .audio-track:hover, body.animations .audio-track.active {
+    background: #080808
+}
+body:not(.animations) #audio-player:not(.audio-mobile) .audio-track:hover, body:not(.animations) .audio-track.active {
+    background: var(--bg-color-2)
+}
+
+html.light-mode body:not(.animations) header, html.light-mode body:not(.animations) main {
+    background: var(--bg-color)
+}
+
+@media (min-width: 1090px) {
+    body:not(.play) #audio-controls-shortcuts {
+        display: unset
+    }
+}
+@media (min-width: 850px) {
+    body {
+        background: url(../../images/bg.jpg) center/cover no-repeat
+    }
+}
+
+@media (min-width: 701px) {
+    #audio-header::before {
+        content: 'Music - '
+    }
+    header, main {
+        background: var(--opacity-bg-color)
+    }
+    #audio-timeChange-container {
+        position: relative
+    }
+    #audio-timeChange-form {
+        display: flex
+    }
+}
+@media (min-width: 1000px) {
+    #animation-disable {
+        display: flex
+    }
+    body:not(.play) #animation-disable {
+        visibility: visible
+    }
+    body.play header:hover #animation-disable, body.play header:focus-within #animation-disable {
+        visibility: visible
+    }
+    header.animation-btn {
+        padding-right: 10px
+    }
+}

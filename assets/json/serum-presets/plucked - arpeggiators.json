@@ -1,0 +1,33 @@
+[
+    {
+        "title": "PL ARP 01",
+        "tags": [
+            "plucked",
+            "arpeggiator",
+            "2020"
+        ],
+        "file": "plucked - arpeggiators/PL ARP 01",
+        "special_type": "arp"
+    },
+    {
+        "title": "PL ARP 02",
+        "tags": [
+            "plucked",
+            "arpeggiator",
+            "2020",
+            "starlight"
+        ],
+        "file": "plucked - arpeggiators/PL ARP 02",
+        "special_type": "arp"
+    },
+    {
+        "title": "PL ARP 03",
+        "tags": [
+            "plucked",
+            "arpeggiator",
+            "2020"
+        ],
+        "file": "plucked - arpeggiators/PL ARP 03",
+        "special_type": "arp"
+    }
+]

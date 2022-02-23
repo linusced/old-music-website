@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'textFont';
+    src: url(../../fonts/TiresiasLpfont-qZ370.ttf)
+}
+@font-face {
+    font-family: 'digitFont';
+    src: url(../../fonts/MonospaceTypewriter.ttf)
+}
+
+:root {
+    --border-color: #0000;
+    --text-color: #ddd;
+    --text-color-2: #aaa;
+    --bg-color: #080808;
+    --bg-color-2: #161616;
+    --red-color: #920606;
+    --blue-color: #0569ff;
+    --green-color: #36da36;
+    --black-color: #080808;
+    --white-color: #ddd;
+    --opacity-bg-color: #0008;
+}
+body:not(.animations.play) {
+    --border-color: #666;
+}
+html.light-mode body:not(.animations) {
+    --border-color: #222;
+    --text-color: #1d1d1d;
+    --text-color-2: #555;
+    --bg-color: #eee;
+    --bg-color-2: #ddd;
+    --red-color: #ffdada;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    flex-shrink: 0;
+    overflow-x: hidden
+}
+html {
+    height: 100%
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: var(--bg-color);
+    width: 100vw;
+    min-height: 100%
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none
+}
+canvas {
+    display: none
+}
+.h1 {
+    white-space: nowrap;
+    font-family: 'textFont';
+    font-size: 35px;
+    padding-top: 5px;
+    overflow: visible;
+    color: var(--text-color)
+}
+.h1::after {
+    content: ' Audio'
+}
+.h1:focus, .text-link:focus {
+    outline: 2px solid var(--blue-color);
+    outline-offset: 5px
+}
+h2 {
+    font-family: 'textFont';
+    font-size: 25px;
+    overflow: visible;
+    color: var(--text-color)
+}
+h3 {
+    font-family: 'digitFont';
+    font-size: 20px;
+    color: var(--text-color);
+    overflow: visible;
+    margin: 0 10px 3px
+}
+h4 {
+    font-family: 'textFont';
+    font-size: 35px;
+    overflow: visible;
+    color: var(--text-color);
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 2px solid var(--border-color);
+    text-transform: capitalize
+}
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: var(--text-color-2);
+    margin: 15px 25px;
+    text-align: left;
+    line-height: 25px
+}
+.hidden {
+    display: none !important
+}
+.margin-bottom {
+    margin-bottom: 50px !important
+}
+.fas {
+    font-size: 30px;
+    width: 45px;
+    padding: 0 5px;
+    margin: 5px;
+    color: var(--text-color);
+    transform: scale(1);
+    transition: transform .2s
+}
+.fas:hover {
+    transform: scale(1.2)
+}
+.fas:focus {
+    outline: 2px solid var(--blue-color);
+    outline-offset: 5px
+}
+
+.info-box {
+    font-size: 17px;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border: 1px solid var(--blue-color);
+    padding: 3px
+}
+.fullscreen-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden
+}
+.fullscreen-bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(../../images/bg.jpg) center/cover no-repeat;
+    z-index: -1
+}
+.uppercase-o {
+    font-size: 140%
+}
+.text-translateY {
+    transform: translateY(-2.5px)
+}
+.text-link {
+    font-family: 'textFont';
+    font-size: 18px;
+    color: var(--text-color);
+    padding-bottom: 2px;
+    border-bottom: 2px solid var(--text-color)
+}
+.text-link:hover {
+    color: var(--text-color-2);
+    border-bottom-color: var(--text-color-2)
+}
+
+#browser-msg {
+    display: none;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    padding: 5px 0 5px 10px;
+    background: var(--red-color);
+    color: var(--text-color);
+    font-size: 17px;
+    z-index: 5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+@media (max-width: 700px) {
+    .h1 {
+        width: 100%;
+        text-align: left;
+        font-size: 35px;
+        padding: 14px 10px 5px;
+        transform: none;
+        border-bottom: 2px solid var(--blue-color)
+    }
+    h3 {
+        min-width: 155px
+    }
+}
+@media (max-width: 500px) {
+    .h1::after {
+        content: ''
+    }
+}

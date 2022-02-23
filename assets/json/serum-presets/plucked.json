@@ -1,0 +1,63 @@
+[
+    {
+        "title": "PL 01",
+        "tags": [
+            "plucked",
+            "2020"
+        ],
+        "file": "plucked/PL 01"
+    },
+    {
+        "title": "PL 02",
+        "tags": [
+            "plucked",
+            "2020"
+        ],
+        "file": "plucked/PL 02",
+        "special_type": "mono"
+    },
+    {
+        "title": "PL 03",
+        "tags": [
+            "plucked",
+            "2020",
+            "starlight",
+            "orbit",
+            "interplanetary"
+        ],
+        "file": "plucked/PL 03",
+        "special_type": "mono"
+    },
+    {
+        "title": "PL 04",
+        "tags": [
+            "plucked",
+            "2020",
+            "starlight",
+            "orbit",
+            "reentry"
+        ],
+        "file": "plucked/PL 04",
+        "special_type": "mono"
+    },
+    {
+        "title": "PL 05",
+        "tags": [
+            "plucked",
+            "2021",
+            "interplanetary",
+            "hope"
+        ],
+        "file": "plucked/PL 05",
+        "special_type": "mono"
+    },
+    {
+        "title": "PL 06",
+        "tags": [
+            "plucked",
+            "2021",
+            "hope"
+        ],
+        "file": "plucked/PL 06"
+    }
+]

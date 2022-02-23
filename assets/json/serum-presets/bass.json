@@ -1,0 +1,66 @@
+[
+    {
+        "title": "BA 01",
+        "tags": [
+            "bass",
+            "2020",
+            "orbit"
+        ],
+        "file": "bass/BA 01",
+        "special_type": "mono"
+    },
+    {
+        "title": "BA 02",
+        "tags": [
+            "bass",
+            "2020",
+            "orbit"
+        ],
+        "file": "bass/BA 02",
+        "special_type": "mono"
+    },
+    {
+        "title": "BA 03",
+        "tags": [
+            "bass",
+            "2020",
+            "starlight",
+            "interplanetary"
+        ],
+        "file": "bass/BA 03",
+        "special_type": "mono"
+    },
+    {
+        "title": "BA 04",
+        "tags": [
+            "bass",
+            "2020",
+            "starlight",
+            "orbit"
+        ],
+        "file": "bass/BA 04",
+        "special_type": "mono"
+    },
+    {
+        "title": "BA 05",
+        "tags": [
+            "bass",
+            "2021",
+            "starlight",
+            "lunar",
+            "reentry"
+        ],
+        "file": "bass/BA 05",
+        "special_type": "mono"
+    },
+    {
+        "title": "BA 06",
+        "tags": [
+            "bass",
+            "2021",
+            "hope"
+        ],
+        "file": "bass/BA 06",
+        "special_type": "mono"
+    }
+]

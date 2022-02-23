@@ -1,0 +1,406 @@
+[
+    {
+        "time": 8.66,
+        "color": "#1c4dd4",
+        "automation": [
+            {
+                "time": 12.66,
+                "alpha": 0.5
+            },
+            {
+                "time": 13.2,
+                "alpha": 0.05
+            },
+            {
+                "time": 16.66,
+                "alpha": 0.65
+            },
+            {
+                "time": 17.2,
+                "alpha": 0.05
+            },
+            {
+                "time": 17.33,
+                "alpha": 0.1
+            },
+            {
+                "time": 17.66,
+                "alpha": 0.4
+            },
+            {
+                "time": 20.5,
+                "alpha": 0.7
+            },
+            {
+                "time": 20.7,
+                "alpha": 0.9
+            },
+            {
+                "time": 22,
+                "alpha": 0
+            }
+        ]
+    },
+    {
+        "time": 22.66,
+        "color": "#85caf1",
+        "automation": [
+            {
+                "time": 27.23,
+                "alpha": 0.5
+            },
+            {
+                "time": 27.33,
+                "alpha": 0.7
+            },
+            {
+                "time": 27.73,
+                "alpha": 0.45
+            },
+            {
+                "time": 27.83,
+                "alpha": 0.6
+            },
+            {
+                "time": 29,
+                "alpha": 0.4
+            },
+            {
+                "time": 30,
+                "alpha": 0.6
+            },
+            {
+                "time": 31.13,
+                "alpha": 0.75
+            },
+            {
+                "time": 31.33,
+                "alpha": 1
+            },
+            {
+                "time": 31.5,
+                "alpha": 1
+            },
+            {
+                "time": 32.2,
+                "alpha": 0.75
+            },
+            {
+                "time": 32.3,
+                "alpha": 1
+            },
+            {
+                "time": 32.45,
+                "alpha": 1
+            },
+            {
+                "time": 33.5,
+                "alpha": 0
+            }
+        ]
+    },
+    {
+        "time": 34.66,
+        "color": "#b35cec",
+        "automation": [
+            {
+                "time": 35.33,
+                "alpha": 0.6
+            },
+            {
+                "time": 36.56,
+                "alpha": 0.75
+            },
+            {
+                "time": 36.66,
+                "alpha": 1
+            },
+            {
+                "time": 37,
+                "alpha": 1
+            },
+            {
+                "time": 40,
+                "alpha": 0
+            }
+        ]
+    },
+    {
+        "time": 40.66,
+        "color": "#cc1787",
+        "automation": [
+            {
+                "time": 40.76,
+                "alpha": 0.6
+            },
+            {
+                "time": 44.56,
+                "alpha": 0.75
+            },
+            {
+                "time": 44.66,
+                "alpha": 1
+            },
+            {
+                "time": 45,
+                "alpha": 1
+            },
+            {
+                "time": 47.33,
+                "alpha": 0
+            }
+        ]
+    },
+    {
+        "time": 47.83,
+        "color": "#ffffff",
+        "automation": [
+            {
+                "time": 49.33,
+                "alpha": 0.3
+            },
+            {
+                "time": 50.56,
+                "alpha": 0.5
+            },
+            {
+                "time": 50.66,
+                "alpha": 0.8
+            },
+            {
+                "time": 52.66,
+                "alpha": 1
+            },
+            {
+                "time": 53.33,
+                "alpha": 0.65
+            },
+            {
+                "time": 56,
+                "alpha": 0
+            }
+        ]
+    },
+    {
+        "time": 60,
+        "color": "#ffffff",
+        "automation": [
+            {
+                "time": 60.56,
+                "alpha": 0.4
+            },
+            {
+                "time": 60.66,
+                "alpha": 0.6
+            },
+            {
+                "time": 62,
+                "alpha": 0.3
+            },
+            {
+                "time": 62.33,
+                "alpha": 0
+            }
+        ]
+    },
+    {
+        "time": 64.56,
+        "color": "#e93e13",
+        "automation": [
+            {
+                "time": 64.66,
+                "alpha": 0.4
+            },
+            {
+                "time": 68.44,
+                "alpha": 0.6
+            },
+            {
+                "time": 68.66,
+                "alpha": 0.8
+            },
+            {
+                "time": 69.5,
+                "alpha": 0.3
+            },
+            {
+                "time": 70,
+                "alpha": 0.5
+            },
+            {
+                "time": 73.33,
+                "alpha": 0.8
+            },
+            {
+                "time": 74.66,
+                "alpha": 0
+            }
+        ]
+    },
+    {
+        "time": 77,
+        "color": "#3a8eee",
+        "automation": [
+            {
+                "time": 79.33,
+                "alpha": 0.3
+            },
+            {
+                "time": 80.33,
+                "alpha": 0.6
+            },
+            {
+                "time": 81.16,
+                "alpha": 0.8
+            },
+            {
+                "time": 81.66,
+                "alpha": 1
+            },
+            {
+                "time": 82.66,
+                "alpha": 0.3
+            },
+            {
+                "time": 84.22,
+                "alpha": 0.6
+            },
+            {
+                "time": 84.33,
+                "alpha": 0.8
+            },
+            {
+                "time": 85.83,
+                "alpha": 1
+            },
+            {
+                "time": 87,
+                "alpha": 0
+            }
+        ]
+    },
+    {
+        "time": 88,
+        "color": "#1d79f0",
+        "automation": [
+            {
+                "time": 88.66,
+                "alpha": 0.4
+            },
+            {
+                "time": 92.56,
+                "alpha": 0.8
+            },
+            {
+                "time": 92.66,
+                "alpha": 1
+            },
+            {
+                "time": 94.33,
+                "alpha": 1
+            },
+            {
+                "time": 96,
+                "alpha": 0.4
+            },
+            {
+                "time": 96.66,
+                "alpha": 0.6
+            },
+            {
+                "time": 97,
+                "alpha": 1
+            },
+            {
+                "time": 98.66,
+                "alpha": 1
+            },
+            {
+                "time": 101.33,
+                "alpha": 0
+            }
+        ]
+    },
+    {
+        "time": 102.66,
+        "color": "#f01d1d",
+        "automation": [
+            {
+                "time": 103,
+                "alpha": 0.4
+            },
+            {
+                "time": 104.5,
+                "alpha": 0.5
+            },
+            {
+                "time": 104.66,
+                "alpha": 1
+            },
+            {
+                "time": 106.33,
+                "alpha": 0.8
+            },
+            {
+                "time": 107.33,
+                "alpha": 0
+            }
+        ]
+    },
+    {
+        "time": 108.83,
+        "color": "#ffffff",
+        "automation": [
+            {
+                "time": 111.56,
+                "alpha": 0.4
+            },
+            {
+                "time": 112.66,
+                "alpha": 1
+            },
+            {
+                "time": 113,
+                "alpha": 0.45
+            },
+            {
+                "time": 115.33,
+                "alpha": 0.2
+            },
+            {
+                "time": 120,
+                "alpha": 0
+            }
+        ]
+    },
+    {
+        "time": 122,
+        "color": "#6338da",
+        "automation": [
+            {
+                "time": 130,
+                "alpha": 0.6
+            },
+            {
+                "time": 131.23,
+                "alpha": 0.8
+            },
+            {
+                "time": 131.33,
+                "alpha": 1
+            },
+            {
+                "time": 132.66,
+                "alpha": 1
+            },
+            {
+                "time": 134,
+                "alpha": 0.3
+            },
+            {
+                "time": 136.66,
+                "alpha": 0
+            }
+        ]
+    }
+]

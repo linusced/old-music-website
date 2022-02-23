@@ -1,0 +1,91 @@
+#sound-content {
+    overflow-x: auto;
+    flex-direction: column
+}
+#sound-content > div {
+    min-width: 100%;
+    display: grid;
+    overflow-x: visible;
+    grid-template-columns: minmax(360px, 40%) 700px 150px;
+    border-top: 2px solid var(--border-color);
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px 10px 0;
+}
+#sound-content.presets > div {
+    grid-template-columns: minmax(360px, 40%) 600px 150px
+}
+#sound-content > div:hover, #sound-content > div:focus-within {
+    background: var(--bg-color-2)
+}
+
+#sound-content .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100px
+}
+#sound-content .text-content h2 {
+    text-align: left;
+    margin: 0 25px 10px
+}
+#sound-content .text-content p {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.download {
+    background: var(--text-color);
+    color: var(--bg-color);
+    padding: 3px 6px;
+    border: 3px solid var(--border-color);
+    font-size: 20px;
+    transition: color .2s, background .2s;
+}
+.download:hover, .download:focus {
+    outline: none;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-color: var(--blue-color)
+}
+
+.preview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    overflow: visible
+}
+.preview .fa-play {
+    font-size: 45px;
+    width: auto;
+    padding-right: 5px
+}
+.preview .fa-play:focus {
+    outline: none;
+    transform: scale(1.2);
+    color: var(--green-color)
+}
+
+.waveform {
+    display: block;
+    background: #000;
+    border: 1px solid var(--white-color)
+}
+
+.preview img {
+    overflow: visible;
+    border: 2px solid var(--green-color);
+    box-shadow: 0 0 8px 2px var(--black-color)
+}
+.serum-preview {
+    padding: 5px;
+    border: none;
+    background: var(--text-color);
+    color: var(--bg-color)
+}
+.serum-preview:focus {
+    outline: 2px solid var(--blue-color)
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "title": "BA SQ 01",
+        "tags": [
+            "bass",
+            "sequencer",
+            "2020"
+        ],
+        "file": "bass - sequencers/BA SQ 01",
+        "special_type": "mono"
+    },
+    {
+        "title": "BA SQ 02",
+        "tags": [
+            "bass",
+            "sequencer",
+            "2020"
+        ],
+        "file": "bass - sequencers/BA SQ 02",
+        "special_type": "mono"
+    },
+    {
+        "title": "BA SQ 03",
+        "tags": [
+            "bass",
+            "sequencer",
+            "2020"
+        ],
+        "file": "bass - sequencers/BA SQ 03",
+        "special_type": "mono"
+    },
+    {
+        "title": "BA SQ 04",
+        "tags": [
+            "bass",
+            "sequencer",
+            "2020",
+            "starlight",
+            "interplanetary"
+        ],
+        "file": "bass - sequencers/BA SQ 04",
+        "special_type": "mono"
+    },
+    {
+        "title": "BA SQ 05",
+        "tags": [
+            "bass",
+            "sequencer",
+            "2021",
+            "starlight",
+            "interplanetary"
+        ],
+        "file": "bass - sequencers/BA SQ 05",
+        "special_type": "mono"
+    }
+]

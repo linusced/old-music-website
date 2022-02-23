@@ -1,0 +1,51 @@
+[
+    {
+        "title": "PD AM 01",
+        "tags": [
+            "pad",
+            "ambience",
+            "2020",
+            "starlight"
+        ],
+        "file": "pads - ambiences/PD AM 01",
+        "special_type": "mono"
+    },
+    {
+        "title": "PD AM 02",
+        "tags": [
+            "pad",
+            "ambience",
+            "2020",
+            "starlight",
+            "orbit",
+            "lunar"
+        ],
+        "file": "pads - ambiences/PD AM 02",
+        "special_type": "mono"
+    },
+    {
+        "title": "PD AM 03",
+        "tags": [
+            "pad",
+            "ambience",
+            "2020",
+            "starlight",
+            "orbit",
+            "lunar",
+            "reentry",
+            "interplanetary"
+        ],
+        "file": "pads - ambiences/PD AM 03"
+    },
+    {
+        "title": "PD AM 04",
+        "tags": [
+            "pad",
+            "ambience",
+            "2021",
+            "interplanetary"
+        ],
+        "file": "pads - ambiences/PD AM 04",
+        "special_type": "mono"
+    }
+]

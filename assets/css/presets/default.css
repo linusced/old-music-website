@@ -1,0 +1,65 @@
+main {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    overflow: visible;
+    display: none
+}
+main.active {
+    display: flex;
+}
+
+#select-main-content {
+    background: var(--bg-color)
+}
+#select-main-content .radio-btn {
+    color: var(--text-color)
+}
+.select-main-content-group {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    overflow: visible
+}
+.select-main-content-group > div {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    overflow: visible
+}
+
+.main-content {
+    max-width: none;
+    width: 100vw;
+    overflow: visible
+}
+
+.main-top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    padding-left: 10px;
+    margin: 10px auto
+}
+#presets-count {
+    display: inline-flex;
+    min-width: 62px;
+    margin-right: 50px
+}
+
+#loading-screen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1
+}
+#loading-screen h4 {
+    text-transform: none;
+    max-width: 90vw;
+    border-bottom: none
+}

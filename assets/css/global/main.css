@@ -1,0 +1,127 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: var(--bg-color)
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px
+}
+
+.list-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+    background: var(--bg-color)
+}
+.list-content a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    transition: transform .2s
+}
+.list-content a h2 {
+    margin-top: 15px;
+    width: 200px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.list-content a h2 span {
+    white-space: nowrap
+}
+.list-content a:hover, .list-content a:focus {
+    transform: scale(1.02);
+    border-color: var(--blue-color);
+    outline: none
+}
+
+#select-main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+    background: var(--black-color)
+}
+#select-main-content .radio-btn {
+    color: var(--white-color);
+    font-size: 50px;
+    padding: 10px 20px
+}
+#select-main-content .radio-btn[data-checked="true"] {
+    color: var(--blue-color);
+    border-bottom: 3px solid var(--blue-color)
+}
+#select-main-content .radio-btn:focus {
+    outline: 2px solid var(--blue-color);
+    outline-offset: 5px
+}
+
+.radio-btn {
+    font-family: 'textFont';
+    cursor: pointer;
+    transition: transform .2s
+}
+.radio-btn.padding-left {
+    position: relative;
+    padding-left: 26px !important
+}
+.radio-btn > .uppercase-o {
+    position: absolute;
+    left: 10px;
+    bottom: 3px
+}
+.radio-btn:hover, .filter .radio-btn:focus {
+    transform: scale(1.1)
+}
+.filter-container {
+    width: 100%;
+    padding: 5px 5%
+}
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid var(--border-color);
+    overflow-x: auto
+}
+.filter .radio-btn {
+    font-family: 'textFont';
+    color: var(--text-color);
+    font-size: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+    padding: 10px 15px 5px;
+    margin: 10px
+}
+.filter .radio-btn[data-checked="true"] {
+    color: var(--blue-color);
+    border-color: var(--blue-color)
+}
+.filter .radio-btn:focus {
+    outline: none;
+    border-color: var(--blue-color) !important
+}
+
+@media (max-width: 700px) {
+    main {
+        border: none !important
+    }
+}

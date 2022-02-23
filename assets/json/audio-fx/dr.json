@@ -1,0 +1,75 @@
+[
+    {
+        "title": "DR Hi-Hat [Closed]",
+        "tags": [
+            "drum",
+            "hi-hat",
+            "2020",
+            "starlight"
+        ],
+        "file": "DR/DR Hi-Hat [Closed] - 2020"
+    },
+    {
+        "title": "DR Hi-Hat [Open]",
+        "tags": [
+            "drum",
+            "hi-hat",
+            "2020",
+            "starlight",
+            "hope"
+        ],
+        "file": "DR/DR Hi-Hat [Open] - 2020"
+    },
+    {
+        "title": "DR Snare",
+        "tags": [
+            "drum",
+            "snare",
+            "2020",
+            "starlight"
+        ],
+        "file": "dr/DR Snare - 2020"
+    },
+    {
+        "title": "DR Cinematic Kick [Default]",
+        "tags": [
+            "drum",
+            "cinematic",
+            "2020",
+            "reentry"
+        ],
+        "file": "dr/DR Cinematic Kick [Default] - 2020"
+    },
+    {
+        "title": "DR Cinematic Kick [Wide - Left]",
+        "tags": [
+            "drum",
+            "cinematic",
+            "2020",
+            "starlight",
+            "reentry"
+        ],
+        "file": "dr/DR Cinematic Kick [Wide - Left] - 2020"
+    },
+    {
+        "title": "DR Cinematic Kick [Wide - Right]",
+        "tags": [
+            "drum",
+            "cinematic",
+            "2020",
+            "starlight",
+            "reentry"
+        ],
+        "file": "dr/DR Cinematic Kick [Wide - Right] - 2020"
+    },
+    {
+        "title": "DR Snare 2",
+        "tags": [
+            "drum",
+            "snare",
+            "2021",
+            "hope"
+        ],
+        "file": "dr/DR Snare 2 - 2021"
+    }
+]
