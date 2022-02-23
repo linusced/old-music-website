@@ -115,3 +115,7 @@
         font-size: 40px
     }
 }
+
+[href="mailto:"] {
+    visibility: hidden;
+}
