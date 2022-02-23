@@ -1,5 +1,7 @@
+var isHomePage = false;
+
 function fetchJSON(file) {
-    return new Promise(resolve => fetch(`../assets/json/${file}`).then(response => response.json().then(json => resolve(json))));
+    return new Promise(resolve => fetch(`${isHomePage ? "." : ".."}/assets/json/${file}`).then(response => response.json().then(json => resolve(json))));
 }
 function urlReplace(url, fromUrl) {
     return (fromUrl ? decodeURIComponent(url) : encodeURIComponent(url)).toLowerCase();
