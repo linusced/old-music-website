@@ -30,7 +30,7 @@ window.addEventListener('load', () => fetchJSON('meta.json').then(async metadata
             a.className = item.logo;
             a.style.color = item.color;
         } else if (item.logo.includes('http')) a.innerHTML = `<img src="${item.logo}" height="30">`;
-        else a.innerHTML = `<img src="${location.origin}/assets/images/${item.logo}" height="30">`;
+        else a.innerHTML = `<img src="${isHomePage ? "." : ".."}/assets/images/${item.logo}" height="30">`;
 
         if (animations_disable) music_platforms_nav.insertBefore(a, animations_disable);
         else music_platforms_nav.appendChild(a);
