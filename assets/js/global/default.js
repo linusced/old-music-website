@@ -1,5 +1,5 @@
 function fetchJSON(file) {
-    return new Promise(resolve => fetch(`${location.pathname.includes("music") ? ".." : "."}/assets/json/${file}`).then(response => response.json().then(json => resolve(json))));
+    return new Promise(resolve => fetch(`${location.pathname.includes("music") ? ".." : "../old-music-website"}/assets/json/${file}`).then(response => response.json().then(json => resolve(json))));
 }
 function urlReplace(url, fromUrl) {
     return (fromUrl ? decodeURIComponent(url) : encodeURIComponent(url)).toLowerCase();
