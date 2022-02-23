@@ -1,7 +1,7 @@
 /old-music-website.code-workspace
 /**/.DS_Store
 /assets/audio/audio-fx/**/*.wav
-/assets/audio/film-fx/*.wav
+/assets/audio/film-fx/**/*.wav
 /assets/audio/serum-presets/**/*.mp3
 /assets/audio/wav/*.wav
 /serum-presets/**/*.fxp
